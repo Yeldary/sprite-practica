@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 2%;
+	background-color: lightblue;
+}
+.face{
+	background-image: url(sprite-iconos-sociales.png);
+	width: 25px;
+	height: 20px;
+	background-position: 0px 0px;
+	float: left;
+}
+.tw{
+	background-image: url(sprite-iconos-sociales.png);
+	width: 25px;
+	height: 20px;
+	background-position: -72px 0px;
+	float: left;
+}
+.mail{
+	background-image: url(sprite-iconos-sociales.png);
+	width: 25px;
+	height: 20px;
+	background-position: -144px 0px;
+	float: left;
+}
+.face:hover{
+	background-position: 0px -72px;
+}
+.tw:hover{
+	background-position: -72px -72px;
+}
+.mail:hover{
+	background-position: -144px -72px;
+}
+p{
+	animation-duration: 2s;
+	animation-name: slide;
+	background-color: white;
+	opacity: 0.9;
+}
+@keyframes slide{
+	0%{
+margin-left: 50%;
+width: 100%;
+	}
+	100%{
+margin-left: 0%;
+width: 100%;
+	}
+}
+.esto{
+	animation-duration: 2s;
+	animation-name: slidedos;
+	background-color: lightgray;
+	opacity: 0.9;
+}
+@keyframes slidedos{
+	0%{
+margin-left: 50%;
+width: 100%;
+	}
+	100%{
+margin-left: 0%;
+width: 100%;
+	}
+}
